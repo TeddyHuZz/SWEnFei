@@ -104,13 +104,13 @@ body {
     align-items: center; /* Vertically align logo and text */
     gap: 10px; /* Add spacing between the logo and the text */
     text-decoration: none; /* Remove underline from links */
-    color: rgb(121, 121, 121); /* Set text color */
-    font-size: 16px; /* Set font size for the text */
+    color: rgba(121, 121, 121, 0.322); /* Set text color */
+    font-size: 18px; /* Set font size for the text */
 }
 
 .social-logo {
-    width: 40px; /* Set the size of the logos */
-    height: 40px;
+    width: 25px; /* Set the size of the logos */
+    height: 25px;
     transition: transform 0.3s ease; /* Add a hover effect */
 }
 
