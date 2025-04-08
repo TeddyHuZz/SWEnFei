@@ -4,8 +4,7 @@ import './About.css';
 
 function About() {
   return (
-    <div>
-      <h1>About Me</h1>
+    <div className="container">
       <nav className="navmenu">
         <a href="#about">About</a>
         <a href="#experience">Experience</a>
