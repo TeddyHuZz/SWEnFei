@@ -49,12 +49,12 @@ body {
     margin-top: 50px;
     display: flex; /* Align items horizontally */
     flex-direction: row; /* Place items in a row */
-    align-items: center; /* Vertically align the profile picture and social media */
-    gap: 40px; /* Add spacing between the profile picture and social media */
+    align-items: center; /* Vertically align the profile picture and sentence */
+    gap: 40px; /* Add spacing between the profile picture and the sentence */
 }
 
 .profile-picture {
-    width: 250px; /* Increase the size of the profile picture */
+    width: 250px; /* Size of the profile picture */
     height: 250px; /* Match the width for a circular shape */
     object-fit: cover;
     border-radius: 50%;
@@ -93,6 +93,7 @@ body {
 }
 
 .social-media {
+    margin-top: 20px; /* Add spacing above the social media section */
     display: flex;
     flex-direction: column; /* Stack social media items vertically */
     align-items: flex-start; /* Align items to the left */
