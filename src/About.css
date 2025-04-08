@@ -45,10 +45,16 @@ body {
     bottom: 0;
 }
 
+.content {
+    margin-top: 50px;
+    display: flex;
+}
+
 .profile-picture {
     width: 200px;
     height: 200px;
     object-fit: cover;
     border-radius: 50%;
     margin-bottom: 20px;
+    border: 10px solid rgb(249, 161, 252);
 }
