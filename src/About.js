@@ -23,14 +23,17 @@ function About() {
         </h1>
       </div>
       <div className="social-media">
-        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://x.com/@TeddyHuZz" target="_blank" rel="noopener noreferrer">
           <img src={twitterLogo} alt="Twitter" className="social-logo" />
         </a>
-        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/keewenfeicyber" target="_blank" rel="noopener noreferrer">
           <img src={linkedinLogo} alt="LinkedIn" className="social-logo" />
         </a>
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/TeddyHuZz" target="_blank" rel="noopener noreferrer">
           <img src={githubLogo} alt="GitHub" className="social-logo" />
+        </a>        
+        <a href="https://www.instagram.com/wenfei04/" target="_blank" rel="noopener noreferrer">
+          <img src={InstagramLogo} alt="Instagram" className="social-logo" />
         </a>
       </div>
     </div>
