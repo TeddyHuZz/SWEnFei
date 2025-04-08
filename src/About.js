@@ -1,0 +1,11 @@
+// filepath: /home/wenfei/Documents/my-portfolio/src/About.js
+function About() {
+    return (
+      <div>
+        <h1>About Me</h1>
+        <p>This is the About page.</p>
+      </div>
+    );
+  }
+  
+  export default About;
