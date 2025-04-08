@@ -46,8 +46,9 @@ body {
 }
 
 .profile-picture {
-    width: 150px; /* Set the desired width */
-    height: 150px; /* Set the desired height */
-    border-radius: 50%; /* Make the image circular */
-    margin-bottom: 20px; /* Add spacing below the image */
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
 }
