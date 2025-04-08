@@ -14,7 +14,10 @@ function About() {
       </div>
       <div className="content">
         <img src={profilePicture} alt="Me" className="profile-picture" />
-        <h1>Hey, I am Wen Fei! Software Developer and Web3 Enthusiast</h1>
+        <h1>
+          Hey, I am Wen Fei! Software Developer and Web3{' '}
+          <span className="typing-effect">Enthusiast</span>
+        </h1>
       </div>
     </div>
   );
