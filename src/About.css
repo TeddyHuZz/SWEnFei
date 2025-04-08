@@ -1,4 +1,6 @@
 .navmenu {
     display:flex;
-    align-items:right;
+    text-align: right;
+    cursor: pointer;
+    border: none;
 }
