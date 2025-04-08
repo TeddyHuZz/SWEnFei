@@ -59,6 +59,7 @@ body {
     border-radius: 50%;
     margin-bottom: 20px;
     border: 10px solid rgb(249, 161, 252);
+    flex-shrink: 0;
 }
 
 .content h1 {
