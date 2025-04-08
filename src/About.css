@@ -1,7 +1,6 @@
 .container {
-    width: 800px;
+    width: 1000px;
     margin: 0 auto;
-    padding: 20px;
     margin-top: 30px;
 }
 
@@ -16,7 +15,7 @@
 .navmenu a {
     color: gray;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 15px;
     position: relative;
 }
 
