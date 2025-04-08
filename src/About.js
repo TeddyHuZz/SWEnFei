@@ -1,9 +1,10 @@
 import React from 'react';
 import './About.css';
 import profilePicture from './assets/profile.jpg';
-import twitterLogo from './assets/twitter.png'; // Replace with your logo paths
+import twitterLogo from './assets/twitter.png'; 
 import linkedinLogo from './assets/linkedin.png';
 import githubLogo from './assets/github.png';
+import InstagramLogo from './assets/instagram.png';
 
 function About() {
   return (
