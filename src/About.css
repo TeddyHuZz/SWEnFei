@@ -48,8 +48,9 @@ body {
 .content {
     margin-top: 50px;
     display: flex;
-    align-items: center;
-    gap: 50px;
+    flex-direction: column; /* Stack the profile picture and text vertically */
+    align-items: flex-start; /* Align everything to the left */
+    gap: 20px; /* Add spacing between the profile picture and the sentence */
 }
 
 .profile-picture {
@@ -93,10 +94,11 @@ body {
 }
 
 .social-media {
-    display: flex;
-    flex-direction: column; /* Stack each social media item vertically */
-    align-items: center; /* Center the items horizontally */
-    gap: 15px; /* Add spacing between each social media item */
+    margin-top: 20px; /* Add spacing above the social media section */
+    display: flex; /* Align items horizontally */
+    align-items: center; /* Vertically align logos and text */
+    justify-content: flex-start; /* Align to the left */
+    gap: 20px; /* Add spacing between each social media item */
 }
 
 .social-media a {
@@ -104,7 +106,7 @@ body {
     align-items: center; /* Vertically align logo and text */
     gap: 10px; /* Add spacing between the logo and the text */
     text-decoration: none; /* Remove underline from links */
-    color: rgba(56, 56, 56, 0.322); /* Set text color */
+    color: rgba(56, 56, 56, 0.8); /* Set darker text color */
     font-size: 18px; /* Set font size for the text */
 }
 
@@ -119,5 +121,5 @@ body {
 }
 
 .social-media a:hover span {
-    color: rgb(249, 161, 252); /* Change text color on hover */
+    color: rgb(121, 121, 121); /* Change text color on hover */
 }
