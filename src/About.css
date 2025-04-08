@@ -79,7 +79,7 @@ body {
     top: 0;
     height: 100%; 
     width: 3px; 
-    background-color: rgb(249, 161, 252);
+    background-color: rgb(121, 121, 121);
     animation: blink 0.8s steps(2, start) infinite; 
 }
 
