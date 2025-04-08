@@ -1,19 +1,32 @@
 .navmenu {
     display:flex;
-    text-align: right;
+    justify-content: flex-end;
     cursor: pointer;
     all: unset;
     color: gray;
     font-size: 20px;
+    margin-right: 20px;
 }
 
 .navmenu a {
     color: Gray;
     text-decoration: none;
     margin: 0 10px;
+    position: relative;
 }
 
-.navmenu:hover {
-    color: gray;
-    text-decoration: beige;
+.navmenu a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background-color: rgb(249, 161, 252);
+    transition: width 0.3s ease, bottom 0.3s ease;
+}
+
+.navmenu:hover::after{
+    width: 100%;
+    bottom: 0;
 }
