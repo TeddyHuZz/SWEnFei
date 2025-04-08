@@ -2,5 +2,7 @@
     display:flex;
     text-align: right;
     cursor: pointer;
-    border: none;
+    all: unset;
+    color: gray;
+    font-size: 20px;
 }
