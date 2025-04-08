@@ -93,18 +93,31 @@ body {
 }
 
 .social-media {
-    margin-top: 30px; /* Add spacing above the social media section */
     display: flex;
-    justify-content: center; /* Center the icons */
-    gap: 20px; /* Add spacing between the icons */
+    flex-direction: column; /* Stack each social media item vertically */
+    align-items: center; /* Center the items horizontally */
+    gap: 15px; /* Add spacing between each social media item */
+}
+
+.social-media a {
+    display: flex; /* Align logo and text horizontally */
+    align-items: center; /* Vertically align logo and text */
+    gap: 10px; /* Add spacing between the logo and the text */
+    text-decoration: none; /* Remove underline from links */
+    color: rgb(121, 121, 121); /* Set text color */
+    font-size: 16px; /* Set font size for the text */
 }
 
 .social-logo {
-    width: 40px; /* Set the size of the icons */
+    width: 40px; /* Set the size of the logos */
     height: 40px;
     transition: transform 0.3s ease; /* Add a hover effect */
 }
 
 .social-logo:hover {
-    transform: scale(1.2); /* Slightly enlarge the icon on hover */
+    transform: scale(1.2); /* Slightly enlarge the logo on hover */
+}
+
+.social-media a:hover span {
+    color: rgb(249, 161, 252); /* Change text color on hover */
 }
