@@ -62,7 +62,13 @@ body {
     flex-shrink: 0; /* Prevent the image from shrinking */
 }
 
-.content h1 {
+.text-section {
+    display: flex;
+    flex-direction: column; /* Stack the sentence and social media vertically */
+    gap: 20px; /* Add spacing between the sentence and the social media section */
+}
+
+.text-section h1 {
     color: rgb(121, 121, 121);
     font-size: 40px;
 }
