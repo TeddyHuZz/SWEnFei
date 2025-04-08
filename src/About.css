@@ -48,6 +48,8 @@ body {
 .content {
     margin-top: 50px;
     display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 .profile-picture {

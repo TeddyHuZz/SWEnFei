@@ -14,8 +14,7 @@ function About() {
       </div>
       <div className="content">
         <img src={profilePicture} alt="Me" className="profile-picture" />
-        <h1>About Me</h1>
-        <p>This is the About page content.</p>
+        <h1>Hey, I am Wen Fei! Software Developer and Web3 Enthusiast</h1>
       </div>
     </div>
   );
