@@ -25,6 +25,10 @@ body {
     position: relative;
 }
 
+.navmenu a:hover {
+    color: rgba(249, 161, 252, 0.815);
+}
+
 .navmenu a::after {
     content: '';
     position: absolute;
