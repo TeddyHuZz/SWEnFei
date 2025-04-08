@@ -104,7 +104,7 @@ body {
     align-items: center; /* Vertically align logo and text */
     gap: 10px; /* Add spacing between the logo and the text */
     text-decoration: none; /* Remove underline from links */
-    color: rgba(121, 121, 121, 0.322); /* Set text color */
+    color: rgba(56, 56, 56, 0.322); /* Set text color */
     font-size: 18px; /* Set font size for the text */
 }
 
