@@ -47,25 +47,25 @@ body {
 
 .content {
     margin-top: 50px;
-    display: flex; /* Align items horizontally */
-    flex-direction: row; /* Place items in a row */
-    align-items: center; /* Vertically align the profile picture and sentence */
-    gap: 40px; /* Add spacing between the profile picture and the sentence */
+    display: flex; 
+    flex-direction: row; 
+    align-items: flex-start; 
+    gap: 40px; 
 }
 
 .profile-picture {
-    width: 250px; /* Size of the profile picture */
-    height: 250px; /* Match the width for a circular shape */
+    width: 250px; 
+    height: 250px; 
     object-fit: cover;
     border-radius: 50%;
     border: 10px solid rgb(249, 161, 252);
-    flex-shrink: 0; /* Prevent the image from shrinking */
+    flex-shrink: 0; 
 }
 
 .text-section {
     display: flex;
-    flex-direction: column; /* Stack the sentence and social media vertically */
-    gap: 20px; /* Add spacing between the sentence and the social media section */
+    flex-direction: column; 
+    gap: 20px; 
 }
 
 .text-section h1 {
@@ -99,32 +99,31 @@ body {
 }
 
 .social-media {
-    margin-top: 20px; /* Add spacing above the social media section */
     display: flex;
-    flex-direction: column; /* Stack social media items vertically */
-    align-items: flex-start; /* Align items to the left */
-    gap: 15px; /* Add spacing between each social media item */
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
 }
 
 .social-media a {
-    display: flex; /* Align logo and text horizontally */
-    align-items: center; /* Vertically align logo and text */
-    gap: 10px; /* Add spacing between the logo and the text */
-    text-decoration: none; /* Remove underline from links */
-    color: rgba(56, 56, 56, 0.8); /* Set darker text color */
-    font-size: 18px; /* Set font size for the text */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: rgba(56, 56, 56, 0.8);
+    font-size: 18px;
 }
 
 .social-logo {
-    width: 30px; /* Adjust the size of the logos */
+    width: 30px;
     height: 30px;
-    transition: transform 0.3s ease; /* Add a hover effect */
+    transition: transform 0.3s ease;
 }
 
 .social-logo:hover {
-    transform: scale(1.2); /* Slightly enlarge the logo on hover */
+    transform: scale(1.2);
 }
 
 .social-media a:hover span {
-    color: rgb(121, 121, 121); /* Change text color on hover */
+    color: rgb(249, 161, 252);
 }
