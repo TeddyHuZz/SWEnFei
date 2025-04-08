@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import profilePicture from './home/wenfei/my-portfolio/src/assets/profile.jpg';
+import profilePicture from './home/wenfei/my-portfolio/src/profile.jpg';
 
 function About() {
   return (
