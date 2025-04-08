@@ -1,15 +1,18 @@
 // filepath: /home/wenfei/Documents/my-portfolio/src/About.js
-import './About.css';
 import React from 'react';
+import './About.css';
 
 function About() {
-    return (
-      <div className="navmenu">
-        <button>About</button>
-        <button>Projects</button>
-        <button>Experiences</button>
-      </div>
-    );
-  }
-  
-  export default About;
+  return (
+    <div>
+      <h1>About Me</h1>
+      <nav className="navmenu">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+      </nav>
+    </div>
+  );
+}
+
+export default About;
