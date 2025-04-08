@@ -6,3 +6,14 @@
     color: gray;
     font-size: 20px;
 }
+
+.navmenu a {
+    color: Gray;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.navmenu:hover {
+    color: gray;
+    text-decoration: beige;
+}
