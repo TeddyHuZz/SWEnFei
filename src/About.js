@@ -57,19 +57,29 @@ function About() {
           <p className="output-text">"Malaysia"</p>
 
           <p><span className="prompt">{'~$'}</span> WenFei.contactInfo</p>
-          <p className="output">["wenfei@example.com", "LinkedIn", "GitHub"]</p>
+          <p className="output">
+            [
+              <a href="mailto:keewenfeicyber@gmail.com" className="email-link">keewenfeicyber@gmail.com</a>,
+              <a href="https://www.linkedin.com/in/keewenfeicyber">LinkedIn</a>, 
+              <a href="https://github.com/TeddyHuZz">GitHub</a>, 
+              <a href="https://x.com/@TeddyHuZz">Twitter</a> 
+            ]
+          </p>
 
           <p><span className="prompt">{'~$'}</span> WenFei.resume</p>
           <p className="output">"wenfei_resume.pdf"</p>
 
           <p><span className="prompt">{'~$'}</span> WenFei.interests</p>
-          <p className="output-text">["coding", "blockchain", "traveling", "gaming"]</p>
+          <p className="output-text">["coding", "web3", "traveling", "gaming", "tech stuff"]</p>
 
           <p><span className="prompt">{'~$'}</span> WenFei.education</p>
-          <p className="output-text">"B.Sc. Computer Science - National University of Singapore"</p>
+          <p className="output-text">"B.Sc. Software Engineering - Asia Pacific University"</p>
+
+          <p><span className="prompt">{'~$'}</span> WenFei.languages</p>
+          <p className="output-text">["JavaScript", "React", "Node.js", "Python", "CSS", "MySQL", "Java", "HTML", "PHP"]</p>
 
           <p><span className="prompt">{'~$'}</span> WenFei.skills</p>
-          <p className="output-text">["JavaScript", "React", "Node.js", "Web3", "Linux", "Git"]</p>
+          <p className="output-text">["Blockchain", "Git", "Linux", "Leadership", "Communication", "Critical Thinking"]</p>
         </div>
       </div>
     </div>
