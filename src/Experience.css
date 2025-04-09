@@ -94,7 +94,7 @@ body {
 
 /* Left-aligned container */
 .experience-page .left {
-    right: 28.9;
+    left: 0;
 }
 
 /* Right-aligned container */
