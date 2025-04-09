@@ -13,6 +13,33 @@ function Experience() {
           </nav>
         </div>
         <div className="content">
+          <div className='timeline'>
+            <div className='container left'>
+              <div className='timelinetext'>
+                <h2>Sept 2022 - Sept 2024</h2>
+                <h3>Diploma in ICT(Software Engineering)</h3>
+                <p>I have successfully graduated from Asia Pacific University
+                  with a Diploma in ICT(Software Engineering). I have gained
+                  knowledge in software engineering, web development, and
+                  programming languages. I have also worked on various projects
+                  that have helped me to develop my skills in software
+                  development and programming.
+                </p>
+              </div>
+            </div>
+            <div className='container right'>
+              <div className='timelinetext'>
+                <h2>June 2024 - Sept 2024</h2>
+                <h3>Event Department Trainee</h3>
+                <p>I have joined APU Blockchain & Cyrpptocurrency Club as an
+                  Event Department Trainee. I have gained experience in
+                  organizing events, managing teams, and working with
+                  various people. I have also developed my skills in event
+                  management and communication.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="footer">
           <p>© 2025 Wen Fei. All rights reserved.</p>
