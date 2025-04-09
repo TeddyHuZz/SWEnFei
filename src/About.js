@@ -67,7 +67,16 @@ function About() {
           </p>
 
           <p><span className="prompt">{'~$'}</span> WenFei.resume</p>
-          <p className="output">"wenfei_resume.pdf"</p>
+          <p className="output">
+            <a
+              href="/wenfei-resume.pdf"
+              target='_blank'
+              rel="noopener noreferrer"
+              className="resume-link"
+            >
+              "wenfei-resume.pdf"
+            </a>
+          </p>
 
           <p><span className="prompt">{'~$'}</span> WenFei.interests</p>
           <p className="output-text">["coding", "web3", "traveling", "gaming", "tech stuff"]</p>
