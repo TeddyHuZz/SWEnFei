@@ -12,7 +12,7 @@ function Experience() {
             <Link to="/projects">Projects</Link>
           </nav>
         </div>
-        <div className="content">
+        <div className="experience-page">
           <div className='timeline'>
             <div className='container left'>
               <div className='timelinetext'>
