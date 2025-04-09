@@ -204,3 +204,12 @@ body {
 .email-link:hover {
     color: #33777c;
 }
+
+.social-link {
+    color: #42C4CF; 
+    text-decoration: none; 
+}
+
+.social-link:hover {
+    color: #33777c;
+}

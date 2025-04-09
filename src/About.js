@@ -60,9 +60,9 @@ function About() {
           <p className="output">
             [
               <a href="mailto:keewenfeicyber@gmail.com" className="email-link">keewenfeicyber@gmail.com</a>,
-              <a href="https://www.linkedin.com/in/keewenfeicyber">LinkedIn</a>, 
-              <a href="https://github.com/TeddyHuZz">GitHub</a>, 
-              <a href="https://x.com/@TeddyHuZz">Twitter</a> 
+              <a href="https://www.linkedin.com/in/keewenfeicyber" className="social-link">LinkedIn</a>, 
+              <a href="https://github.com/TeddyHuZz" className="social-link">GitHub</a>, 
+              <a href="https://x.com/@TeddyHuZz" className="social-link">Twitter</a> 
             ]
           </p>
 
