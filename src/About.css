@@ -2,21 +2,12 @@ body {
     background-color: #F6F9FC;
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column; /* Stack elements vertically */
-    align-items: center; /* Center content horizontally */
-    height: 100vh; /* Full viewport height */
 }
 
 .container {
     width: 1000px;
     margin: 0 auto;
     margin-top: 40px;
-    flex-grow: 1; /* Allow the container to take up available space */
-    display: flex;
-    flex-direction: row; /* Align profile picture and text horizontally */
-    align-items: flex-start; /* Align items at the top */
-    gap: 40px; /* Add spacing between the profile picture and text */
 }
 
 .navmenu {
@@ -144,7 +135,6 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     overflow: hidden;
-    margin-top: 20px; /* Add spacing above the terminal */
 }
 
 .terminal-header {
