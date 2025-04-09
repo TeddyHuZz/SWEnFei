@@ -42,7 +42,8 @@ function About() {
             </a>
           </div>
         </div>
-        <div className="terminal">
+      </div>
+      <div className="terminal">
           <div className="terminal-header">
             <div className="top-rectangle"></div>
             <div className="dot-red"></div>
@@ -50,7 +51,6 @@ function About() {
             <div className="dot-green"></div>
           </div>
         </div>
-      </div>
     </div>
   );
 }
