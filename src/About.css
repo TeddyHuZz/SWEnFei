@@ -213,3 +213,12 @@ body {
 .social-link:hover {
     color: #33777c;
 }
+
+.resume-link {
+    color: #42C4CF;
+    text-decoration: none;
+}
+
+.resume-link:hover {
+    color: #33777c;
+}
