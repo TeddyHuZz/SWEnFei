@@ -53,7 +53,7 @@ function About() {
           <div className="terminal-title">~/wenfei</div>
         </div>
         <div className="terminal-body">
-          <p><span className="prompt">{'>'}</span>WenFei.currentLocation</p>
+          <p><span className="prompt">{'~ %'}</span>WenFei.currentLocation</p>
           <p className="output">"Singapore"</p>
 
           <p><span className="prompt"> </span>WenFei.contactInfo</p>
