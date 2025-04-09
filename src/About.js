@@ -53,22 +53,22 @@ function About() {
           <div className="terminal-title">~/wenfei</div>
         </div>
         <div className="terminal-body">
-          <p><span className="prompt">{'~$'}</span>WenFei.currentLocation</p>
+          <p><span className="prompt">{'~$'}</span> WenFei.currentLocation</p>
           <p className="output">"Singapore"</p>
 
-          <p><span className="prompt"> </span>WenFei.contactInfo</p>
+          <p><span className="prompt">{'~$'}</span> WenFei.contactInfo</p>
           <p className="output">["wenfei@example.com", "LinkedIn", "GitHub"]</p>
 
-          <p><span className="prompt"> </span>WenFei.resume</p>
+          <p><span className="prompt">{'~$'}</span> WenFei.resume</p>
           <p className="output">"wenfei_resume.pdf"</p>
 
-          <p><span className="prompt"> </span>WenFei.interests</p>
+          <p><span className="prompt">{'~$'}</span> WenFei.interests</p>
           <p className="output">["coding", "blockchain", "traveling", "gaming"]</p>
 
-          <p><span className="prompt"> </span>WenFei.education</p>
+          <p><span className="prompt">{'~$'}</span> WenFei.education</p>
           <p className="output">"B.Sc. Computer Science - National University of Singapore"</p>
 
-          <p><span className="prompt"> </span>WenFei.skills</p>
+          <p><span className="prompt">{'~$'}</span> WenFei.skills</p>
           <p className="output">["JavaScript", "React", "Node.js", "Web3", "Linux", "Git"]</p>
         </div>
       </div>
