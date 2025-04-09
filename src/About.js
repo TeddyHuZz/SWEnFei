@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './About.css';
 import profilePicture from './assets/profile.jpg';
 import twitterLogo from './assets/twitter.png'; 
@@ -11,9 +12,9 @@ function About() {
     <div className="container">
       <div className="header">
         <nav className="navmenu">
-          <a href="#about">About</a>
-          <a href="#experience">Experience</a>
-          <a href="#projects">Projects</a>
+          <Link to="/about">About</Link>
+          <Link to="/experience">Experience</Link>
+          <Link to="/projects">Projects</Link>
         </nav>
       </div>
       <div className="content">
