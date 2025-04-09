@@ -12,8 +12,9 @@ function Experience() {
             <Link to="/projects">Projects</Link>
           </nav>
         </div>
-        
-
+        <div className="content">
+            <div className='line'></div>
+        </div>
         <div className="footer">
           <p>© 2025 Wen Fei. All rights reserved.</p>
           <p>Designed and Developed by Wen Fei</p>
