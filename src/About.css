@@ -196,6 +196,11 @@ body {
     margin-left: 20px;
 }
 
+.email-link {
+    color: #42C4CF; 
+    text-decoration: none; 
+}
+
 .email-link-hover {
     color: #25919b
 }
