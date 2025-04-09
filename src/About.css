@@ -127,3 +127,39 @@ body {
 .social-media a:hover span {
     color: rgb(249, 161, 252);
 }
+
+.top-rectangle {
+    width: 1000px;
+    height: 200px;
+    background-color: #e0e0e0;
+}
+
+.dot-red {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.dot-green {
+    width: 20px;
+    height: 20px;
+    background-color: #27c93f;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.dot-yellow {
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
