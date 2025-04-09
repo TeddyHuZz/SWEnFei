@@ -222,3 +222,10 @@ body {
 .resume-link:hover {
     color: #33777c;
 }
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #919AAF;
+}
