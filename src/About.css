@@ -187,6 +187,11 @@ body {
 }
 
 .output {
-    color: #e0e0e0;
+    color: #42C4CF;
+    margin-left: 20px;
+}
+
+.output-text {
+    color: #C0B181;
     margin-left: 20px;
 }
