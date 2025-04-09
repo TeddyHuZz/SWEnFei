@@ -91,6 +91,10 @@ function About() {
           <p className="output-text">["Blockchain", "Git", "Linux", "Leadership", "Communication", "Critical Thinking"]</p>
         </div>
       </div>
+      <div className="footer">
+        <p>© 2025 Wen Fei. All rights reserved.</p>
+        <p>Designed and Developed by Wen Fei</p>
+      </div>
     </div>
   );
 }
