@@ -129,13 +129,13 @@ body {
 }
 
 .terminal {
-    width: 600px;
+    width: 1000px;
     background-color: #2b2b2b;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     overflow: hidden;
     color: #e0e0e0;
-    margin-top: 50px;
+    margin-top: 200px;
 }
 
 .terminal-header {
