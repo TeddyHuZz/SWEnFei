@@ -12,22 +12,7 @@ function Experience() {
             <Link to="/projects">Projects</Link>
           </nav>
         </div>
-        <div className="wholecontent">
-            <div className="timeline">
-                <div className="timeline-item left">
-                    <div className="content">
-                    <p className="date">June 2024 - Sep 2024</p>
-                    <p>Event Department Trainee<br />APUBCC</p>
-                    </div>
-                </div>
-
-                <div className="timeline-item right">
-                    <div className="content">
-                    <p className="date">Sep 2022 - Sep 2024</p>
-                    <p>Diploma in ICT (Software Engineering)<br />Asia Pacific University</p>
-                    </div>
-                </div>
-            </div>
+        <div className="content">
         </div>
         <div className="footer">
           <p>© 2025 Wen Fei. All rights reserved.</p>
