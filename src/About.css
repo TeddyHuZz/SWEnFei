@@ -201,7 +201,6 @@ body {
     text-decoration: none; 
 }
 
-.email-link-hover {
-    color: #1a4f53;
-    text-decoration: underline;
+.email-link:hover {
+    color: #33777c;
 }
