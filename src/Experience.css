@@ -60,84 +60,90 @@ body {
     color: #919AAF;
 }
 
-.timeline {
+.experience-page {
+    background-color: #F6F9FC;
+    margin: 0;
+    padding: 0;
+}
+
+.experience-page .timeline {
     position: relative;
     max-width: 1000px;
     margin: 0 auto;
 }
 
 /* The vertical line in the middle */
-.timeline::after {
+.experience-page .timeline::after {
     content: '';
     position: absolute;
     width: 6px;
-    background-color: #FF9F55; /* Adjust color if needed */
+    background-color: #FF9F55;
     top: 0;
     bottom: 0;
-    left: 50%; /* Center the line */
-    margin-left: -3px; /* Half of the line's width */
+    left: 50%;
+    margin-left: -3px;
 }
 
 /* Container for timeline items */
-.container {
+.experience-page .container {
     padding: 10px 40px;
     position: relative;
     background-color: white;
-    width: 50%; /* Half width for alternating sides */
+    width: 50%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
 }
 
 /* Left-aligned container */
-.left {
-    left: 0; /* Align to the left */
+.experience-page .left {
+    left: 0;
 }
 
 /* Right-aligned container */
-.right {
-    left: 50%; /* Align to the right */
+.experience-page .right {
+    left: 50%;
 }
 
 /* Add arrows to the left container (pointing right) */
-.left::before {
+.experience-page .left::before {
     content: '';
     height: 0;
     position: absolute;
     top: 22px;
     width: 0;
     z-index: 1;
-    right: -15px; /* Position arrow on the right edge */
+    right: -15px;
     border: medium solid white;
     border-width: 10px 0 10px 10px;
     border-color: transparent transparent transparent white;
 }
 
 /* Add arrows to the right container (pointing left) */
-.right::before {
+.experience-page .right::before {
     content: '';
     height: 0;
     position: absolute;
     top: 22px;
     width: 0;
     z-index: 1;
-    left: -15px; /* Position arrow on the left edge */
+    left: -15px;
     border: medium solid white;
     border-width: 10px 10px 10px 0;
     border-color: transparent white transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
-.right::after {
+.experience-page .right::after {
     left: -16px;
 }
 
 /* The circles on the timeline */
-.container::after {
+.experience-page .container::after {
     content: '';
     position: absolute;
     width: 25px;
     height: 25px;
-    right: -17px; /* Position circle on the right edge */
+    right: -17px;
     background-color: white;
     border: 4px solid #FF9F55;
     top: 15px;
@@ -147,27 +153,27 @@ body {
 
 /* Media queries for responsiveness */
 @media screen and (max-width: 600px) {
-    .timeline::after {
-        left: 31px; /* Move the timeline line to the left */
+    .experience-page .timeline::after {
+        left: 31px;
     }
 
-    .container {
-        width: 100%; /* Full width for small screens */
+    .experience-page .container {
+        width: 100%;
         padding-left: 70px;
         padding-right: 25px;
     }
 
-    .left, .right {
-        left: 0; /* Align all containers to the left */
+    .experience-page .left, .experience-page .right {
+        left: 0;
     }
 
-    .container::before {
-        left: 60px; /* Adjust arrow position */
+    .experience-page .container::before {
+        left: 60px;
         border-width: 10px 10px 10px 0;
         border-color: transparent white transparent transparent;
     }
 
-    .left::after, .right::after {
-        left: 15px; /* Adjust circle position */
+    .experience-page .left::after, .experience-page .right::after {
+        left: 15px;
     }
 }
