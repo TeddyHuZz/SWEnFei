@@ -13,7 +13,11 @@ function Experience() {
           </nav>
         </div>
         <div className="content">
-            <div className='line'></div>
+            <div className='line'>
+                <p className='line1-duration'>Sept 2022 - Sept 2024</p>
+                <p className='line1-text'>Diploma in ICT (Software Engineering)
+                Asia Pacific University</p>
+            </div>
         </div>
         <div className="footer">
           <p>© 2025 Wen Fei. All rights reserved.</p>
