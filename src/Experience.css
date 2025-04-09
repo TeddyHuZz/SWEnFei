@@ -94,12 +94,12 @@ body {
 
 /* Left-aligned container */
 .experience-page .left {
-    left: 0;
+    left: -20;
 }
 
 /* Right-aligned container */
 .experience-page .right {
-    left: 0%;
+    left: 20%;
 }
 
 /* Add arrows to the left container (pointing right) */
