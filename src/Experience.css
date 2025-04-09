@@ -82,6 +82,16 @@ body {
     margin-left: -3px;
 }
 
+/* Container for timeline items */
+.experience-page .container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: white;
+    width: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
 /* Left-aligned container */
 .experience-page .left {
     left: 0;
