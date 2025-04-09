@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Projects.css';
 
 function Projects() {
@@ -6,9 +7,9 @@ function Projects() {
       <div className="container">
         <div className="header">
           <nav className="navmenu">
-            <a href="#about">About</a>
-            <a href="#experience">Experience</a>
-            <a href="#projects">Projects</a>
+            <Link to="/about">About</Link>
+            <Link to="/experience">Experience</Link>
+            <Link to="/projects">Projects</Link>
           </nav>
         </div>
         

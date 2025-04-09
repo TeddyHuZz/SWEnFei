@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Experience.css';
 
 function Experience() {
@@ -6,13 +7,13 @@ function Experience() {
       <div className="container">
         <div className="header">
           <nav className="navmenu">
-            <a href="#about">About</a>
-            <a href="#experience">Experience</a>
-            <a href="#projects">Projects</a>
+            <Link to="/about">About</Link>
+            <Link to="/experience">Experience</Link>
+            <Link to="/projects">Projects</Link>
           </nav>
         </div>
         
-        
+
         <div className="footer">
           <p>© 2025 Wen Fei. All rights reserved.</p>
           <p>Designed and Developed by Wen Fei</p>
