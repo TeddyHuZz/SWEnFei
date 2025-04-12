@@ -88,13 +88,12 @@ body {
 .tech-item {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
     border: 1px solid #30363d;
     border-radius: 8px;
     padding: 20px;
     gap: 20px;
     transition: transform 0.3s, box-shadow 0.3s;
-    min-width: 220px; /* optional: to make sure items don't squish */
+    min-width: 220px;
     background-color: white;
 }
 
@@ -107,6 +106,13 @@ body {
     width: 50px;
     height: 50px;
     margin-bottom: 10px;
+}
+
+.tech-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .tech-item h3 {
