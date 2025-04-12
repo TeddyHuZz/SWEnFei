@@ -10,6 +10,8 @@ body {
     margin-top: 40px;
     font-family: 'Arial', sans-serif;
     padding: 20px;
+    align-items: center;
+    display: flex;
 }
 
 .navmenu {
