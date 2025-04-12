@@ -64,10 +64,7 @@ body {
 .techstack h1 {
     font-size: 2.5rem;
     color: #000000;
-}
-
-.techstack .highlight {
-    color: #00ff00; /* Green highlight */
+    margin-top: 10px; /* Adjust this value as needed */
 }
 
 .techstack p {
