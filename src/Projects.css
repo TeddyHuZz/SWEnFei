@@ -86,13 +86,17 @@ body {
     scroll-behavior: smooth;
 }
 
-
 .tech-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
     border: 1px solid #30363d;
     border-radius: 8px;
     padding: 20px;
-    text-align: center;
+    gap: 20px;
     transition: transform 0.3s, box-shadow 0.3s;
+    min-width: 220px; /* optional: to make sure items don't squish */
+    background-color: white;
 }
 
 .tech-item:hover {
