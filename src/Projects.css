@@ -78,12 +78,12 @@ body {
 
 .tech-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 20px;
-    justify-items: center;
-    max-width: 1000px;
+    justify-content: center;
+    align-items: start;
     margin: 0 auto;
-    align-items: center;
+    width: fit-content; /* shrink grid to fit content */
 }
 
 .tech-item {
@@ -91,11 +91,11 @@ body {
     align-items: center;
     border: 1px solid #30363d;
     border-radius: 8px;
-    padding: 20px;
-    gap: 20px;
-    transition: transform 0.3s, box-shadow 0.3s;
-    min-width: 220px;
+    padding: 12px 16px;  /* smaller padding */
+    gap: 12px;           /* less gap between icon and text */
+    min-width: 180px;    /* narrower box */
     background-color: white;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .tech-item:hover {
