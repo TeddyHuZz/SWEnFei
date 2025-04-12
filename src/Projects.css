@@ -77,13 +77,12 @@ body {
 }
 
 .tech-grid {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;     /* Center the boxes horizontally */
     gap: 20px;
-    justify-content: center;
-    align-items: center;
     margin: 0 auto;
-    width: fit-content; /* shrink grid to fit content */
+    max-width: 1000px;;
 }
 
 .tech-item {
