@@ -31,8 +31,10 @@ function Projects() {
             {techStack.map((tech) => (
               <div className="tech-item" key={tech.name}>
                 <img src={tech.icon} alt={tech.name} className="tech-icon" />
+                <div className='tech-text'> 
                 <h3>{tech.name}</h3>
                 <p>{tech.type}</p>
+                </div>
               </div>
             ))}
           </div>
