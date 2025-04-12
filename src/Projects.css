@@ -81,7 +81,7 @@ body {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 20px;
     justify-content: center;
-    align-items: start;
+    align-items: center;
     margin: 0 auto;
     width: fit-content; /* shrink grid to fit content */
 }
