@@ -197,7 +197,7 @@ body {
 
 .box1 .sourcecode {
     display: flex;
-    gap: 50px;
+    gap: 200px;
 }
 
 .box1 .techstack {
