@@ -51,6 +51,14 @@ function Projects() {
               <h1>Portfolio Website</h1>
               <p className='description'>This is my first ever project which is also my portfolio website, this is where I showcase my 
                 skills and projects</p>
+              <p className="source-code">
+                [
+                  <a href="mailto:keewenfeicyber@gmail.com" className="email-link">keewenfeicyber@gmail.com</a>,
+                  <a href="https://www.linkedin.com/in/keewenfeicyber" className="social-link"> LinkedIn</a>, 
+                  <a href="https://github.com/TeddyHuZz" className="social-link"> GitHub</a>, 
+                  <a href="https://x.com/@TeddyHuZz" className="social-link"> Twitter</a> 
+                ]
+              </p>
             </div>
             <div className='box2'>
             </div>
