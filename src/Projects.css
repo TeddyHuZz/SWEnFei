@@ -67,7 +67,7 @@ body {
 }
 
 .header .navmenu a:hover {
-    color: #58a6ff;
+    color: rgba(249, 161, 252, 0.815);
 }
 
 .tech {
