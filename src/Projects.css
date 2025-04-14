@@ -171,6 +171,7 @@ body {
     border-radius: 8px 0 0 8px;
     padding: 50px;
     background-color: #ffffff;
+    box-shadow: #000000;
 }
 
 .box2 {
