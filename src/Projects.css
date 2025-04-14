@@ -195,7 +195,7 @@ body {
     height: 80px;
 }
 
-.box1 .sourcecode {
+.box1 .sourcecode img{
     display: flex;
     gap: 200px;
 }
