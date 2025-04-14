@@ -42,11 +42,15 @@ function Projects() {
           </div>
         </div>
         <div className='projects'>
+          <h1>
+            My <span className="highlight">Projects</span>
+          </h1>
+          <p>Here are some of the projects I have worked on.</p>
           <div className='box1'>
 
           </div>
           <div className='box2'>
-            
+
           </div>
         </div>
     </div>
