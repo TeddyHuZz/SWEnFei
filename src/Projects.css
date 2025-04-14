@@ -105,8 +105,8 @@ body {
     border: 1px solid #30363d;
     border-radius: 8px;
     padding: 8px 12px;  /* smaller padding */
-    gap: 12px;           /* less gap between icon and text */
-    min-width: 180px;    /* narrower box */
+    gap: 8px;           /* less gap between icon and text */
+    min-width: 150px;    /* narrower box */
     background-color: white;
     transition: transform 0.3s, box-shadow 0.3s;
 }
