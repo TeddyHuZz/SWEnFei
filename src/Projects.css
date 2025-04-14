@@ -203,6 +203,8 @@ body {
 .box1 .techstack {
     display: flex;
     gap: 20px;
+    border: yellowgreen 1px solid;
+    border-radius: 4px;
 }
 
 .box1 .techstack p{
