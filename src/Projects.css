@@ -197,7 +197,6 @@ body {
 
 .box1 .techstack {
     display: flex;
-    flex-direction: column;
     gap: 20px;
 }
 
