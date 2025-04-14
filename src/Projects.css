@@ -197,6 +197,7 @@ body {
 
 .techstack {
     display: flex;
+    gap: 10px;
 }
 
 .footer {
