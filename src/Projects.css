@@ -135,7 +135,7 @@ body {
 }
 
 .tech-text p {
-    font-size: 0.9rem; /* Reduce font size of the description */
+    font-size: 0.8rem; /* Reduce font size of the description */
     margin: 0; /* Remove extra margin */
 }
 
