@@ -52,11 +52,9 @@ function Projects() {
               <p className='description'>This is my first ever project which is also my portfolio website, this is where I showcase my 
                 skills and projects</p>
               <p className="source-code">
-                [
-                  <a href="https://github.com/TeddyHuZz/my-portfolio" className="github-link">
-                    <img src="/assets/github-link.png" alt="Github" className="githublink-logo" />
-                  </a>
-                ]
+                <a href="https://github.com/TeddyHuZz/my-portfolio" className="github-link">
+                  <img src="/assets/github-link.png" alt="Github" className="githublink-logo" />
+                </a>
               </p>
             </div>
             <div className='box2'>
