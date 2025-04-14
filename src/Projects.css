@@ -8,13 +8,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin: 0; /* Remove any margin */
-    padding: 0; /* Remove any padding */
+    margin: 0; 
+    padding: 0; 
 }
 
 .header h1 {
-    margin: 0; /* Ensure the title has no margin */
-    padding: 0; /* Ensure the title has no padding */
+    margin: 0; 
+    padding: 0; 
 }
 
 .container {
@@ -72,6 +72,7 @@ body {
 
 .techstack {
     margin: 40px 0;
+    margin-top: 50px;
 }
 
 .techstack h1 {
