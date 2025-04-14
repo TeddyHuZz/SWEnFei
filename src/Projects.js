@@ -24,7 +24,7 @@ function Projects() {
         </nav>
       </div>
       <div className="projects-content">
-        <div className="techstack">
+        <div className="tech">
           <h1>
             My <span className="highlight">Technology</span> Skillset
           </h1>
