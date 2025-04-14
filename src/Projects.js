@@ -41,6 +41,14 @@ function Projects() {
             ))}
           </div>
         </div>
+        <div className='projects'>
+          <div className='box1'>
+
+          </div>
+          <div className='box2'>
+            
+          </div>
+        </div>
     </div>
       <div className="footer">
         <p>© 2025 Wen Fei. All rights reserved.</p>
