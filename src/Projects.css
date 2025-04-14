@@ -93,10 +93,10 @@ body {
 .tech-grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;     /* Center the boxes horizontally */
-    gap: 20px;
+    justify-content: center; /* Center the boxes horizontally */
+    gap: 10px; /* Reduce the gap between items */
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 800px; /* Make the grid narrower */
 }
 
 .tech-item {
@@ -104,16 +104,16 @@ body {
     align-items: center;
     border: 1px solid #30363d;
     border-radius: 8px;
-    padding: 8px 12px;  /* smaller padding */
-    gap: 8px;           /* less gap between icon and text */
-    min-width: 150px;    /* narrower box */
+    padding: 8px 12px; /* Reduce padding */
+    gap: 8px; /* Reduce gap between icon and text */
+    min-width: 150px; /* Make the boxes narrower */
     background-color: white;
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .tech-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    transform: translateY(-3px); /* Slightly reduce hover effect */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3); /* Slightly reduce shadow */
 }
 
 .tech-icon {
@@ -129,14 +129,14 @@ body {
     justify-content: center;
 }
 
-.tech-item h3 {
-    font-size: 1.2rem;
-    color: #000000;
+.tech-text h3 {
+    font-size: 1rem; /* Reduce font size of the title */
+    margin: 0; /* Remove extra margin */
 }
 
-.tech-item p {
-    font-size: 0.9rem;
-    color: #8b949e;
+.tech-text p {
+    font-size: 0.8rem; /* Reduce font size of the description */
+    margin: 0; /* Remove extra margin */
 }
 
 .footer {
