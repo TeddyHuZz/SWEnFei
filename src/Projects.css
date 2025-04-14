@@ -106,7 +106,7 @@ body {
     border-radius: 8px;
     padding: 8px 12px; /* Reduce padding */
     gap: 8px; /* Reduce gap between icon and text */
-    min-width: 180px; /* Make the boxes narrower */
+    min-width: 160px; /* Make the boxes narrower */
     background-color: white;
     transition: transform 0.3s, box-shadow 0.3s;
 }
