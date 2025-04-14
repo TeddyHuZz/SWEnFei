@@ -196,9 +196,9 @@ body {
 }
 
 .box1 .techstack {
-    display: flex;
-    gap: 20px;
-    color: #62686e;
+    display: flex !important;
+    gap: 20px !important;
+    color: #62686e !important;
 }
 
 .footer {
