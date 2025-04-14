@@ -195,6 +195,10 @@ body {
     height: 60px;
 }
 
+.box1 .source-code {
+    margin-bottom: 20px;
+}
+
 .techstack {
     display: flex;
     gap: 10px;
