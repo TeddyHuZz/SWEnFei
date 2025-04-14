@@ -4,6 +4,19 @@ body {
     padding: 0;
 }
 
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0; /* Remove any margin */
+    padding: 0; /* Remove any padding */
+}
+
+.header h1 {
+    margin: 0; /* Ensure the title has no margin */
+    padding: 0; /* Ensure the title has no padding */
+}
+
 .container {
     width: 1000px;
     margin: 0 auto;
