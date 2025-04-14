@@ -49,7 +49,7 @@ function Projects() {
           <div className='boxes'>
             <div className='box1'>
               <h1>Portfolio Website</h1>
-              <p>This is my first ever project which is also my portfolio website, this is where I showcase my 
+              <p className='description'>This is my first ever project which is also my portfolio website, this is where I showcase my 
                 skills and projects</p>
             </div>
             <div className='box2'>

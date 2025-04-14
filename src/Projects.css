@@ -169,7 +169,7 @@ body {
     height: 300px;
     border: #000000 1px solid;
     border-radius: 8px 0 0 8px;
-    padding: 20px;
+    padding: 50px;
 }
 
 .box2 {
@@ -178,6 +178,11 @@ body {
     border: #000000 1px solid;
     border-radius: 0 8px 8px 0;
     padding: 20px;
+}
+
+.description {
+    font-size: 1rem;
+    color: #8b949e;
 }
 
 .footer {
