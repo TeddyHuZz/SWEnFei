@@ -195,10 +195,10 @@ body {
     height: 60px;
 }
 
-.box1 .techstack {
-    display: flex !important;
-    gap: 20px !important;
-    color: #62686e !important;
+.box1 .techstack p{
+    display: flex;
+    gap: 20px;
+    color: #62686e;
 }
 
 .footer {
