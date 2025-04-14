@@ -86,7 +86,7 @@ function About() {
           <p className="output-text">"B.Sc. Software Engineering - Asia Pacific University"</p>
 
           <p><span className="prompt">{'~$'}</span> WenFei.languages</p>
-          <p className="output-text">["JavaScript", "React", "Node.js", "Python", "CSS", "MySQL", "Java", "HTML", "PHP"]</p>
+          <p className="output-text">["JavaScript", "React", "Python", "CSS", "MySQL", "Java", "HTML", "PHP"]</p>
 
           <p><span className="prompt">{'~$'}</span> WenFei.skills</p>
           <p className="output-text">["Blockchain", "Git", "Linux", "Leadership", "Communication", "Critical Thinking"]</p>
