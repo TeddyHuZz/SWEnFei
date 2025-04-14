@@ -53,7 +53,9 @@ function Projects() {
                 skills and projects</p>
               <p className="source-code">
                 [
-                  <a href="mailto:keewenfeicyber@gmail.com" className="email-link">keewenfeicyber@gmail.com</a>,
+                  <a href="https://github.com/TeddyHuZz/my-portfolio" className="github-link">
+                    <img src="/assets/github-link.png" alt="Github" className="githublink-logo" />
+                  </a>
                   <a href="https://www.linkedin.com/in/keewenfeicyber" className="social-link"> LinkedIn</a>, 
                   <a href="https://github.com/TeddyHuZz" className="social-link"> GitHub</a>, 
                   <a href="https://x.com/@TeddyHuZz" className="social-link"> Twitter</a> 
