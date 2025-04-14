@@ -195,9 +195,13 @@ body {
     height: 60px;
 }
 
-.box1 .techstack p{
+.box1 .techstack {
     display: flex;
+    flex-direction: column;
     gap: 20px;
+}
+
+.box1 .techstack p{
     color: #62686e;
 }
 
