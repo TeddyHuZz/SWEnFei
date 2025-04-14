@@ -46,11 +46,11 @@ function Projects() {
             My <span className="highlight">Projects</span>
           </h1>
           <p>Here are some of the projects I have worked on.</p>
-          <div className='box1'>
-
-          </div>
-          <div className='box2'>
-
+          <div className='boxes'>
+            <div className='box1'>
+            </div>
+            <div className='box2'>
+            </div>
           </div>
         </div>
     </div>
