@@ -51,6 +51,11 @@ function Projects() {
               <h1>Portfolio Website</h1>
               <p className='description'>This is my first ever project which is also my portfolio website, this is where I showcase my 
                 skills and projects</p>
+              <div className='techstack'>
+                <p>React</p>
+                <p>CSS</p>
+                <p>Vercel</p>
+              </div>
               <p className="source-code">
                 <a href="https://github.com/TeddyHuZz/my-portfolio" className="github-link">
                   <img src="/assets/github-link.png" alt="Github" className="githublink-logo" />
