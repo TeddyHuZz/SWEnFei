@@ -7,6 +7,7 @@ import linkedinLogo from './assets/linkedin.png';
 import githubLogo from './assets/github.png';
 import InstagramLogo from './assets/instagram.png';
 
+<title>About Me</title>
 function About() {
   return (
     <div className="container">
