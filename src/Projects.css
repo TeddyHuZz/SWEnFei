@@ -195,6 +195,10 @@ body {
     height: 60px;
 }
 
+.techstack {
+    display: flex;
+}
+
 .footer {
     text-align: center;
     margin-top: 100px;
