@@ -167,17 +167,19 @@ body {
 .box1 {
     width: 500px;
     height: 400px;
-    border: #000000 1px solid;
+    border: #ffffff 1px solid;
     border-radius: 8px 0 0 8px;
     padding: 50px;
+    background-color: #ffffff;
 }
 
 .box2 {
     width: 500px;
     height: 400px;
-    border: #000000 1px solid;
+    border: #ffffff 1px solid;
     border-radius: 0 8px 8px 0;
     padding: 50px;
+    background-color: #ffffff;
 }
 
 .box1 .description {
