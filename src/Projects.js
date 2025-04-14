@@ -66,6 +66,7 @@ function Projects() {
               </p>
             </div>
             <div className='box2'>
+              <img src="/assets/portfolio.png" alt="Portfolio" className="portfolio-image"/>
             </div>
           </div>
         </div>
