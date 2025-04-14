@@ -9,6 +9,8 @@ const techStack = [
   { name: "PHP", type: "Language", icon: "/assets/php.png" },
   { name: "Java", type: "Language", icon: "/assets/java.png" },
   { name: "Python", type: "Language", icon: "/assets/python.png" },
+  { name: "Pygame", type: "Library", icon: "/assets/python.png" },
+  { name: "MySQL", type: "DBMS", icon: "/assets/mysql.png" },
 ];
 
 function Projects() {
