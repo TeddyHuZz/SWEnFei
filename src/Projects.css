@@ -143,6 +143,21 @@ body {
     margin-top: 100px;
 }
 
+.projects h1 {
+    font-size: 2.5rem;
+    color: #000000;
+}
+
+.projects .highlight {
+    color: #1a811a; /* Green highlight */
+}
+
+.projects p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #8b949e;
+}
+
 .boxes {
     display: flex;
     margin-top: 50px;
