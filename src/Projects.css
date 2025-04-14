@@ -141,7 +141,12 @@ body {
 
 .projects {
     margin-top: 100px;
+}
+
+.boxes {
     display: flex;
+    margin-top: 50px;
+    justify-content: center;
 }
 
 .box1 {
