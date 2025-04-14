@@ -21,7 +21,7 @@ function Projects() {
           <Link to="/projects">Projects</Link>
         </nav>
       </div>
-      <div className="content">
+      <div className="projects-content">
         <div className="techstack">
           <h1>
             My <span className="highlight">Technology</span> Skillset
