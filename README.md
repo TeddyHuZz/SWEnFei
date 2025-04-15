@@ -3,4 +3,9 @@
 3. Please feel free to drop me any comment or feedback on how to make this better
 4. Thank you for reading :D
 
+Techstack:
+React
+CSS
+Vercel
+
 https://my-portfolio-six-plum-17.vercel.app/
