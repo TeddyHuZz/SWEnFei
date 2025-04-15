@@ -9,6 +9,10 @@ import InstagramLogo from './assets/instagram.png';
 
 <title>Wen Fei's About Me</title>
 function About() {
+  useEffect(() => {
+      document.title = "Wen Fei: About me";
+    }, []);
+
   return (
     <div className="container">
       <div className="header">

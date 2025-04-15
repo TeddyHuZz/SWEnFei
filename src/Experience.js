@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom';
 import './Experience.css';
 
 function Experience() {
+  useEffect(() => {
+      document.title = "Wen Fei: Experience";
+    }, []);
+
     return (
       <div className="container">
         <div className="header">

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Projects.css';
 
@@ -14,6 +14,10 @@ const techStack = [
 ];
 
 function Projects() {
+  useEffect(() => {
+    document.title = "Wen Fei: Projects";
+  }, []);
+  
   return (
     <div className="container">
       <div className="header">
