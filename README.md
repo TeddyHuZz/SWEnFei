@@ -4,8 +4,8 @@
 4. Thank you for reading :D
 
 Techstack:
-React
-CSS
+React,
+CSS,
 Vercel
 
 https://my-portfolio-six-plum-17.vercel.app/
