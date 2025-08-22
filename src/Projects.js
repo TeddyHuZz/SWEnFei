@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import './Projects.css';
+import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
+import "./Projects.css";
 
 const techStack = [
   { name: "React", type: "Library", icon: "/assets/react.png" },
@@ -17,7 +17,7 @@ function Projects() {
   useEffect(() => {
     document.title = "Wen Fei: Projects";
   }, []);
-  
+
   return (
     <div className="container">
       <div className="header">
@@ -37,44 +37,64 @@ function Projects() {
             {techStack.map((tech) => (
               <div className="tech-item" key={tech.name}>
                 <img src={tech.icon} alt={tech.name} className="tech-icon" />
-                <div className='tech-text'> 
-                <h3>{tech.name}</h3>
-                <p>{tech.type}</p>
+                <div className="tech-text">
+                  <h3>{tech.name}</h3>
+                  <p>{tech.type}</p>
                 </div>
               </div>
             ))}
           </div>
         </div>
-        <div className='projects'>
+        <div className="projects">
           <h1>
             My <span className="highlight">Projects</span>
           </h1>
           <p>Here are some of the projects I have worked on.</p>
-          <div className='boxes'>
-            <div className='box1'>
+          <div className="boxes">
+            <div className="box1">
               <h1>Portfolio Website</h1>
-              <p className='description'>This is my first ever project which is also my portfolio website, this is where I showcase my 
-                skills and projects</p>
-              <div className='techstack'>
+              <p className="description">
+                This is my first ever project which is also my portfolio
+                website, this is where I showcase my skills and projects
+              </p>
+              <div className="techstack">
                 <p>React</p>
                 <p>CSS</p>
                 <p>Vercel</p>
               </div>
               <p className="source-code">
-                <a href="https://github.com/TeddyHuZz/my-portfolio" className="github-link">
-                  <img src="/assets/github-link.png" alt="Github" className="githublink-logo" />
+                <a
+                  href="https://github.com/TeddyHuZz/SWEnFei"
+                  className="github-link"
+                >
+                  <img
+                    src="/assets/github-link.png"
+                    alt="Github"
+                    className="githublink-logo"
+                  />
                 </a>
-                <a href="https://my-portfolio-six-plum-17.vercel.app/about" className="demo-link">
-                  <img src="/assets/link.png" alt="Demo" className="demolink-logo" />
+                <a
+                  href="https://swenfei.vercel.app/projects"
+                  className="demo-link"
+                >
+                  <img
+                    src="/assets/link.png"
+                    alt="Demo"
+                    className="demolink-logo"
+                  />
                 </a>
               </p>
             </div>
-            <div className='box2'>
-              <img src="/assets/portfolio.png" alt="Portfolio" className="portfolio-image"/>
+            <div className="box2">
+              <img
+                src="/assets/portfolio.png"
+                alt="Portfolio"
+                className="portfolio-image"
+              />
             </div>
           </div>
         </div>
-    </div>
+      </div>
       <div className="footer">
         <p>© 2025 Wen Fei. All rights reserved.</p>
         <p>Designed and Developed by Wen Fei</p>
