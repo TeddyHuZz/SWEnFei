@@ -58,7 +58,7 @@ function Experience() {
             </div>
             <div className='container right'>
               <div className='timelinetext'>
-                <h2>Sept 2024 - Current</h2>
+                <h2>Sept 2024 - Sept 2025</h2>
                 <h3>Event Department Leader</h3>
                 <p>I have successfully promoted to Event Department Leader at APU
                   Blockchain & Cryptocurrency Club. I have gained experience in
